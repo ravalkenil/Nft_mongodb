@@ -8,7 +8,7 @@ app.use(cors());
 
 const port = process.env.PORT || 8080;
 
-const NFTMint = require("./Nftmint"); // Import the NFTMint model.
+const NFTMint = require("./model/Nftmint"); // Import the NFTMint model.
 
 // Connect to MongoDB
 mongoose.connect("mongodb+srv://ravalkenil:aGYYBXvFJZ4TFTHt@cluster.gyuua1i.mongodb.net/Nfttest?retryWrites=true&w=majority", {
